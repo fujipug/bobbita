@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bobbita",
-  description: "Bobba coffee shop",
+  description: "Bobbas Mexicanas",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="bg-red-200" lang="es">
+    <html className="bg-[#DEB3E0]" lang="es">
       <body className={inter.className}>{children}</body>
     </html>
   );
